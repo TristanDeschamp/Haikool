@@ -84,8 +84,8 @@ function App() {
           </button>
         </div>
       )}
-      <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold mb-4">Haikool</h1>
+      <div className="max-w-4xl mx-auto p-6 space-y-6">
+        <h1 className="text-4xl font-semibold text-center text-gray-700">Haikool</h1>
         <HaikuForm addHaiku={addHaiku} />
         <h2 className='text-2xl font-semibold'>Mes Haïku</h2>
         <HaikuList
