@@ -93,6 +93,11 @@ function App() {
           toggleFavorite={toggleFavorite}
           deleteHaiku={deleteHaiku}
         />
+
+        {/* Ligne expliquant les icônes sous toute la liste */}
+        <div className="text-sm text-gray-500 mt-4">
+          <p>💖 = Favoris  [×] = Supprimer</p>
+        </div>
       </div>
     </>
   )
