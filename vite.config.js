@@ -19,7 +19,7 @@ export default defineConfig({
         short_name: "Haïkool",
         description: "Application de création de haïkus",
         theme_color: "#ffffff",
-        start_url: "/",
+        start_url: "https://tristandeschamp.github.io/Haikool/",
         display: "standalone",
         background_color: "#ffffff",
 
